@@ -1,7 +1,7 @@
 package analyzer
 
 import (
-	"io/ioutil"
+	"os" 
 	"log"
 
 	"gopkg.in/yaml.v3"
@@ -23,7 +23,7 @@ func LoadConfig() *Config {
         },
     }
 
-    data, err := ioutil.ReadFile(".loglint.yaml")
+    data, err := os.ReadFile(".loglint.yaml")
     if err != nil {
         return config
     }

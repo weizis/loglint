@@ -1,0 +1,11 @@
+linters-settings:
+  custom:
+    loglint:
+      path: ./loglint.so
+      description: Log message linter
+      original-url: github.com/weizis/loglint
+
+linters:
+  enable:
+    - loglint
+  disable-all: false

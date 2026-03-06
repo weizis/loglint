@@ -1,0 +1,11 @@
+linters-settings:
+  custom:
+    loglint:
+      type: "exec"
+      path: ./loglint.exe
+      description: Log message linter
+      original-url: github.com/weizis/loglint
+
+linters:
+  enable:
+    - loglint
