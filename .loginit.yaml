@@ -1,0 +1,9 @@
+sensitive_words:
+  - password
+  - token
+  - api_key
+  - secret
+  - key
+  - credential
+  - private_key
+  - access_token
